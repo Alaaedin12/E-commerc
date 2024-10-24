@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Vêtements - Accueil</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        .discount {
+            color: red;
+            font-weight: bold;
+        }
+        .original-price {
+            text-decoration: line-through;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <p class="h3">Boutique Mode</p>
+                <ul class="navbar-nav ms-auto">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                        <a class="nav-link" href="#">Femmes</a>
+                        <a class="nav-link" href="homme.html">Hommes</a>
+                        <a class="nav-link" href="enfant.html">Enfent</a>
+                </ul>
+        </div>
+    </nav>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="boutique mode (1).webp" class="d-block w-100" alt="Collection été">
+                <div class="carousel-caption text-dark">
+                    <h5>Nouvelle Collection Été</h5>
+                    <p>Découvrez les dernières tendances pour l'été</p>
+                </div>
+            </div>
+        </div>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Catégories</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="enfant4.jpg" class="card-img-top" alt="Femmes">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Enfent</h5>
+                            <a href="enfant.html" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="vete3.jpg" class="card-img-top" alt="Hommes">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Hommes</h5>
+                            <a href="homme.html" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="vete4.jpg" class="card-img-top" alt="Accessoires">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Femmes</h5>
+                            <a href="homme.html" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Soldes Actuels</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="enfant5.jpg" class="card-img-top" alt="Produit ">
+                        <div class="card-body">
+                            <h5 class="card-title">Robe Florale</h5>
+                            <p class="original-price">Prix: 70€</p>
+                            <p class="discount">Prix Soldé: 50€</p>
+                            <a href="homme.html" class="btn btn-primary">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="vete4.jpg" class="card-img-top" alt="Produit 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemise Homme</h5>
+                            <p class="original-price">Prix: 90€</p>
+                            <p class="discount">Prix Soldé: 70€</p>
+                            <a href="paiment.html" class="btn btn-primary">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="vete5.jpg" class="card-img-top" alt="Produit 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Jeans Slim</h5>
+                            <p class="original-price">Prix: 90€</p>
+                            <p class="discount">Prix Soldé: 70€</p>
+                            <a href="paiment.html" class="btn btn-primary">Acheter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 text-center bg-dark text-white">
+        <div class="container">
+            <h2>Inscrivez-vous à notre newsletter</h2>
+            <p>Recevez les dernières offres et nouveautés directement dans votre boîte mail</p>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-4">
+                    <input type="email" class="form-control" placeholder="Votre adresse e-mail">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Boutique Mode - Tous droits réservés</p>
+    </footer>
